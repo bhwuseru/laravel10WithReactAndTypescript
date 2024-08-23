@@ -7,8 +7,7 @@
 ブラウザでアクセスするポート5173 <br>
 コンテナ内でnpm run devで実行するときのポート5173
 
+- .とvite.config.tsの15行目のポートと .envrcのexport VITE_PORTのポート番号を合わせる
+  
+``` port: 5173, // .envrcの export VITE_PORTのポート番号を設定```
 
-- .envに以下項目を追加するとvite.config.ts
-```
-VITE_PORT=5173
-```
