@@ -12,7 +12,7 @@ export default defineConfig({
     ],
     server: {
         host: true,
-        port: Number(process.env.VITE_PORT) ||  5173, // .env環境変数からポート番号を取得
+        port: 5173, // .envrcの export VITE_PORTのポート番号を設定
         hmr: {
             host: "localhost",
         },
